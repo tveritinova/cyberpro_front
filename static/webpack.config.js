@@ -8,6 +8,9 @@ const config = {
     resolve: {
         extensions: ['.js', '.jsx', '.css']
     },
+    loaders: [
+      { test: /\.css$/, loader: "style-loader!css-loader" },
+    ],
     module: {
       rules: [
         {
