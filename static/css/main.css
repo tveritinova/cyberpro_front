@@ -1,0 +1,73 @@
+body {
+  background-color: white;
+  margin:0 0 0 0 !important;
+}
+
+.game_table {
+  width: 50%;
+  margin-top: 30;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game_cell {
+  color: blue;
+  width: 170px;
+  height: 50px;
+  margin-top: 20;
+  margin-bottom: 20;
+  margin-left: 20;
+  margin-right: 20;
+  font-size: 25;
+  border-radius: 8px;
+  color: black;
+  box-shadow: none;
+  border: none;
+  line-height: initial;
+}
+
+.game_cell:hover {
+  color: rgb(60,60,60);
+}
+
+#dota2 {
+  background-color: #CD5F51;
+}
+
+
+#cs-go {
+  background-color: rgb(66, 70, 188);
+}
+
+#lol {
+  background-color: rgb(193,138,59);
+}
+
+#hearthstone {
+  background-color: rgb(42,136,252);
+}
+
+#overwatch {
+  background-color: #f99e1a;
+}
+
+.title {
+  margin-top: 50;
+  text-align: center;
+  font-size: 30;
+}
+
+.title_game {
+  margin-top: 30;
+  text-align: center;
+  font-size: 40;
+}
+
+.game {
+  margin: 0;
+}
+
+#game_dota2 {
+  
+}
