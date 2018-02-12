@@ -8,9 +8,7 @@ const config = {
     resolve: {
         extensions: ['.js', '.jsx', '.css']
     },
-    loaders: [
-      { test: /\.css$/, loader: "style-loader!css-loader" },
-    ],
+    
     module: {
       rules: [
         {
@@ -18,6 +16,12 @@ const config = {
           exclude: /node_modules/,
           use: 'babel-loader'
         }
+      ],
+      loaders: [
+        { 
+          test: /\.css$/, 
+          loader: "style-loader!css-loader" 
+        },
       ]
     }
 };

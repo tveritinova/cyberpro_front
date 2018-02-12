@@ -9,6 +9,7 @@ import Tournaments from "./Tournaments";
 import Home from "./Home";
 import Game from "./Game";
 
+
 export default class App extends React.Component {
 
   render () {
